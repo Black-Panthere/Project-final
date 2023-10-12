@@ -1,1 +1,219 @@
-
+body{ 
+    box-sizing: border-box; 
+    margin: 0 auto; 
+} 
+.container{ 
+width: 1200px; 
+padding: 0 15px; 
+margin: 0 auto; 
+} 
+.index-logo{ 
+    text-decoration: none; 
+    font-size: 50px; 
+    color: black; 
+    display: flex; 
+    justify-content: center; 
+    background-color: lightskyblue; 
+    width: 220px; 
+    border-radius: 10px; 
+} 
+.index-list{ 
+    font-size: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+} 
+.index-link{ 
+    text-decoration: none; 
+    color: darkmagenta; 
+    margin-right: 8px; 
+    margin-left: 8px; 
+    font-weight: 700; 
+} 
+.footer-index-number{ 
+    display: flex; 
+    justify-content: start; 
+} 
+.index-div{ 
+    background-color: lightgray; 
+} 
+.index-name{ 
+    display: flex; 
+    justify-content: center; 
+    font-size: 35px; 
+    background-color: cyan; 
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+.index-img{ 
+    width: 800px; 
+    display: flex; 
+    justify-content: center; 
+    margin: 30px auto; 
+    flex-direction: column; 
+} 
+.index-p{ 
+    font-size: 20px; 
+    background-color: lightblue;
+} 
+.h-work{ 
+    display: flex; 
+    justify-content: center; 
+    align-content: start; 
+    font-size: 40px; 
+    background-color: aqua; 
+    border-radius: 10px;
+} 
+.p-work{ 
+    font-size: 25px; 
+    background-color: lightblue; 
+} 
+.index-number-2{ 
+    list-style-type: none; 
+} 
+header{ 
+    display: flex; 
+    justify-content: space-between; 
+    background-color:rgb(207, 255, 239) ; 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+} 
+.work-link{ 
+    text-decoration: none; 
+    color: darkmagenta; 
+    margin-right: 8px; 
+    margin-left: 8px; 
+    font-weight: 700; 
+} 
+a{ 
+    text-decoration: none; 
+} 
+.index-navigation{ 
+    width: 700px; 
+} 
+.header-container{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+.footer-index-link{ 
+    color: rgb(185, 0, 185); 
+    font-size: 30px; 
+} 
+.main{ 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+} 
+.footer{ 
+    background-color: rgb(207, 255, 239); 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+} 
+ul{ 
+    margin: 0 auto; 
+    padding: 0;
+} 
+.footer-nav{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px; 
+} 
+.main-container{ 
+    text-align: center; 
+} 
+.main-index-list{ 
+    list-style: none; 
+} 
+.work-container{ 
+    padding-top: 50px; 
+} 
+.work-item{ 
+    margin-bottom: 100px; 
+} 
+.work-img{ 
+    display: block; 
+    width: 900px; 
+    margin: 0 auto; 
+}
+.main-index-number{
+    background-color: lightblue;
+    font-size: 20px;
+}
+.reviews{ 
+    padding-top: 70px; 
+    padding-bottom: 70px; 
+} 
+.reviews-item{ 
+    width: 1000px; 
+    padding: 30px 40px; 
+    border-radius: 15px; 
+    border: 2px solid darkgrey; 
+    display: flex; 
+    margin-bottom: 30px; 
+    background-color: rgba(170, 155, 136, 0.627); 
+} 
+.reviews-item:hover, 
+.reviews-item:focus{ 
+    border: 2px solid rgb(112, 153, 112);
+} 
+.index-logo:hover,
+.index-logo:focus{
+    border: 2px solid black;
+    background-color: rgb(152, 216, 255)
+}
+.reviews-img{ 
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    margin-right: 50px; 
+} 
+.reviews-name{ 
+    margin-top: 0; 
+    font-size: 30px; 
+    color: rgb(56, 2, 2); 
+} 
+.reviews-text{ 
+    font-weight: 700; 
+    font-size: 20px; 
+} 
+.btn-wrap{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+.reviews-btn{ 
+    padding: 12px 30px; 
+    border: none; 
+    border-radius: 10px; 
+    background-color: red; 
+    font-size: 22px; 
+    font-weight: 700; 
+    color: white; 
+    cursor: pointer; 
+} 
+.reviews-btn:hover, 
+.reviews-btn:focus{ 
+    background-color: rgb(190, 10, 10); 
+}
+.reviews-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contacts-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    color: darkmagenta;
+    list-style: none;
+}
+.contacts-item{
+    margin-bottom: 15px;
+    font-weight: 700;
+}
